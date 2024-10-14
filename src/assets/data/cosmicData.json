@@ -1,0 +1,61 @@
+{
+    "cosmicData": [
+        {
+            "cosmicId": "COSMIC001",
+            "parentCaseId": "CASE001",
+            "businessUnit": "Business Unit 1",
+            "focusIdentifier": "FI001",
+            "focusName": "Focus Name 1",
+            "createdBy": "User001",
+            "summary": [
+                {
+                    "sharingCategory": "Internal",
+                    "riskType": [
+                        {
+                            "label": "Fraud",
+                            "value": "FRD001"
+                        }
+                    ],
+                    "hasExistingTicket": "Yes",
+                    "existingTicketNumber": "TICKET001",
+                    "internalReferenceNumber": "REF001",
+                    "existingTicketReason": "Suspicious Activity",
+                    "ticketReasonOthers": "None",
+                    "sendingBank": {
+                        "label": "Bank 1A",
+                        "value": "BANK001A"
+                    },
+                    "receivingBank": {
+                        "label": "Bank 1B",
+                        "value": "BANK001B"
+                    },
+                    "summaryDescription": "Suspicious transfer involving Bank 1A and Bank 1B"
+                }
+            ],
+            "WorkItemNotes": [
+                {
+                    "NoteDate": "2023-05-11",
+                    "EnteredBy": "User I",
+                    "RelatedAction": "Action E",
+                    "Note": "This is a note for COSMIC001."
+                }
+            ],
+            "WorkItemAttachments": [
+                {
+                    "FileName": "document1.pdf",
+                    "AttachDate": "2023-05-12",
+                    "SizeKB": 120,
+                    "AttachedFlag": true
+                }
+            ],
+            "WorkItemAuditHistory": [
+                {
+                    "Date": "2023-05-13",
+                    "Action": "Reviewed",
+                    "PerformedBy": "User J",
+                    "HistoryLine": "Work item reviewed."
+                }
+            ]
+        }
+    ]
+}
